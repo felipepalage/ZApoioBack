@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZApoioBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b93579dd4a84a3ba03ddc744442d24a5de8cc189")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZApoioBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZApoioBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

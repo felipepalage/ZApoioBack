@@ -12,6 +12,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IDeployService, DeployService>();
 builder.Services.AddScoped<IDeployRepository, DeployRepository>();
+builder.Services.AddScoped<IProgressoService, ProgressoService>();
+builder.Services.AddScoped<IProgressoRepository, ProgressoRepository>();
+
 
 builder.Services.AddCors(options =>
 {

@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code / Visual Studio folders
+.vs/
+.vscode/
+
+# Mac files
+.DS_Store
+
+# Logs
+*.log
+
+# Database files
+*.dbmdl
+*.db
+
+# Publish output
+publish/

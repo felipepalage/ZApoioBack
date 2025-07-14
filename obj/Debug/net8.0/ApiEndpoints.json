@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ZApoioBack.Controllers.DeployController",
+    "Method": "Listar",
+    "RelativePath": "api/Deploy/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZApoioBack.Controllers.DeployController",
+    "Method": "Registrar",
+    "RelativePath": "api/Deploy/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deploy",
+        "Type": "ZApoioBack.Models.Deploy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

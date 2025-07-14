@@ -1,0 +1,82 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ZApoioBack",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Deploy/registrar": {
+      "post": {
+        "tags": [
+          "Deploy"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Deploy"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Deploy"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Deploy"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Deploy/listar": {
+      "get": {
+        "tags": [
+          "Deploy"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Deploy": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataDeploy": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "autor": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
